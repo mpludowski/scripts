@@ -208,8 +208,16 @@
         "dashboard"
       ]
     },
-    "1": {"left":[],"middle":[],"right":[]},
-    "2": {"left":[],"middle":[],"right":[]}
+    "1": {
+      "left": [],
+      "middle": [],
+      "right": []
+    },
+    "2": {
+      "left": [],
+      "middle": [],
+      "right": []
+    }
   },
   "theme.bar.location": "top",
   "bar.autoHide": "never",
@@ -292,7 +300,7 @@
     "class:discord": "",
     "class:Postman": ""
   },
-  "menus.clock.weather.key": "todo",
+  "menus.clock.weather.key": "aaa",
   "menus.clock.weather.interval": 60000,
   "menus.volume.raiseMaximumVolume": false,
   "theme.osd.enable": true,
@@ -301,5 +309,8 @@
   "theme.bar.buttons.y_margins": "0.1em",
   "theme.bar.buttons.padding_y": "0.2rem",
   "theme.bar.dropdownGap": "2em",
-  "theme.bar.buttons.workspaces.pill.width": "4em"
+  "theme.bar.buttons.workspaces.pill.width": "4em",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
