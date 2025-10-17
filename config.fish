@@ -3,6 +3,8 @@ alias dco="docker compose"
 alias pco="podman-compose"
 alias dff="kitty +kitten diff"
 alias lst="last -s today -F"
+alias l="eza -ahlo --git --icons=always --total-size"
+alias c="z"
 
 set -x MINIKUBE_IN_STYLE true
 set -g theme_newline_cursor yes
@@ -23,3 +25,5 @@ function dps
         echo ''
     end | ccat
 end
+
+zoxide init fish | source
